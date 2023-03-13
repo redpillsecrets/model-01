@@ -1,0 +1,541 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*----------------TOPBAR----------------*/
+
+.topbar{
+    background-color: #131313;
+    margin: auto;
+}
+
+.topbar-div{
+    padding: 7px 30px;
+    margin: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: #fff;
+    font-size: 13px;
+}
+
+.topbar-div a{
+    color: #fff;
+}
+
+/*----------------SEC1----------------*/
+
+.sec1{
+    margin: auto;
+}
+
+.sec1div{
+    margin: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    color: #000;
+    padding: 30px 30px;
+}
+
+.sec1left{
+    display:flex;
+    align-items: center;
+}
+
+.sec1right{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.logo img{
+    max-width: 100%;
+    width: 220px;
+}
+
+.sec1 a{
+    color: #000;
+}
+
+/*----------------SEC2----------------*/
+
+.sec2{
+    margin: auto;
+    background-color: #131313;
+}
+
+.sec2div{
+    margin: auto;
+    max-width: 1000px;
+    color: #000;
+    padding: 10px 30px;
+}
+
+#menu a{
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 20px;
+}
+
+/*----------------SEC3----------------*/
+
+.sec3{
+    margin: auto;
+}
+
+.sec3div{
+    margin: auto;
+    max-width: 1000px;
+    color: #000;
+    padding: 05px 30px 30px 30px;
+}
+
+.sec3div h3{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #131313;
+    line-height: 1em;
+}
+
+.sec3div h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.sec3div h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.sec3div h4{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+/* Solid border */
+hr{
+    margin: auto;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+/*----------------SEC3----------------*/
+
+.sec4{
+    margin: auto;
+}
+
+.materia{
+    margin: auto;
+    padding: 30px;
+    max-width: 1000px;
+    color: #000;
+    display: grid;
+    grid-template-columns: 68% 32%;
+}
+
+.materia img{
+    max-width: 100%;
+}
+
+.materia h3{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.materia p{
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.conteudo h1{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.sidebarbanner{
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    margin-left: 20px;
+    border: #dddddd 1px solid;
+    border-top: #131313 3px solid;
+    text-align: center;
+}
+
+
+.sidebar h2{
+    font-size: 24px;
+}
+
+.materia h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    background-color: #fafafa;
+    border-left: #131313 3px solid;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+
+
+button{
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    display: block;
+    width: 100%;
+}
+
+button:hover{
+    background-color: #6c9b25;
+    cursor: pointer;
+}
+
+.ctafinal{
+    background-color: #efefef;
+    padding: 30px;
+}
+
+.comentarios{
+        display: grid;
+        grid-template-columns: 15% 85%;
+        align-items: center;
+        padding: 10px;
+        margin: 5px;
+}
+
+.comentarios img{
+    width: 80px;
+    max-width: 100%;
+    border-radius: 50px;
+}
+
+.comentarios h1{
+    font-size: 18px;
+    margin: 0;
+}
+
+.comentarios p{
+        font-size: 16px;
+        margin: 0;
+        line-height: 1.1em;
+}
+
+.social{
+    display: flex;
+}
+
+mark{
+    font-size: 20px;
+    background-color: #ffc40082;
+    line-height: 1.4em;
+}
+
+/*----------------FOOTER----------------*/
+
+.footer{
+    margin: auto;
+    background-color: #f1f1f1;
+    margin-bottom: 100px;
+}
+
+.divfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 1000px;
+    color: rgb(0, 0, 0);
+    padding: 50px 30px;
+}
+
+.links{
+    display: block;
+    padding: 20px;
+}
+
+.copyrights{
+    padding: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+li{
+    list-style-type: none;
+}
+
+/*----------TABLET----------*/
+
+@media only screen and (max-device-width: 767px) {
+
+/*----------------SEC3----------------*/
+
+.sec4{
+    margin: auto;
+}
+
+.materia{
+    margin: auto;
+    max-width: 1000px;
+    color: #000;
+    display: block;
+}
+
+.comentarios{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+/*----------------FOOTER----------------*/
+
+.divfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 1000px;
+    color: #000;
+    padding: 50px 30px;
+}
+
+}
+
+/*----------MOBILE----------*/
+
+@media only screen and (max-device-width: 480px) {
+
+
+/*----------------FOOTER----------------*/
+
+.divfooter{
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+    color: #000;
+    padding: 50px 30px;
+}
+
+.sec2div{
+    display: none;
+}
+
+.sec1div{
+    background-color: #f5f5f5;
+}
+
+}
+
+
+
+
+
+/*-----------CONTADOR------------*/
+
+.boxfinal {
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f3f3f3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+}
+
+
+p.title-contador {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #000 !important;
+    line-height: 1.2em !important;
+    transition: all .5s;
+    margin-right: 5px;
+    margin-top: 8px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+}
+
+.days {
+    display:none !important;
+    }
+
+.hours {
+    text-align: center;
+    }
+
+.minutes {
+    text-align: center;
+    }
+
+.seconds {
+    text-align: center;
+    }
+
+#clockdiv {
+    display: block;
+    font-weight: 100;
+    text-align: right;
+    font-size: 30px;
+    width: 360px;
+    max-width: 100%;
+    margin: 7px 20px 0 auto;
+    }
+
+#clockdiv > div {
+    padding: 0px;
+    background: rgba(255, 255, 255, 0);
+    display: inline-block;
+    }
+
+#clockdiv div > span {
+    display: inline-block;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+    width: 52px;
+    line-height: 1em;
+    background-color: #d32727;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.smalltext {
+    font-size: 9px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.doispontos {
+    font-size: 23px;
+    color: #f22222;
+    font-weight: 400;
+    vertical-align: top;
+    line-height: 2em;
+    text-align: center;
+    padding-left: 2px;
+    margin-right: -5px;
+}
+
+a.bt {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    background: #d32727;
+    box-shadow: 0px 3px 0px #aa1c1c;
+    border-radius: 3px;
+    width: 100%;
+    transition: all .3s;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.bannerdesconto {
+    position: fixed;
+    display: none;
+    left: 0px;
+    bottom: -5px;
+    z-index: 999;
+    }
+
+
+@media (max-width: 570px){
+
+    #clockdiv {
+        display: block;
+        font-size: 30px;
+        width: 150px;
+        max-width: 100%;
+        margin: 7px 20px 0 0;
+    }
+    
+    p.title-contador {
+        font-size: 10px;
+        margin-right: 0;
+        margin-bottom: 0px;
+        display: block;
+        text-align: center;
+        line-height: 1em !important;
+    }
+    
+    #clockdiv div > span {
+        font-size: 24px;
+        width: 40px;
+        padding: 5px 0;
+    }
+    
+    .smalltext {
+        font-size: 7px;
+    }
+    
+    .doispontos {
+        line-height: 1.6em;
+    }
+    
+    
+    .block {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+    
+    p.desconto {
+        margin-bottom: 20px !important;
+    }
+    
+    .sec3div h1 {
+        text-align: left;
+    }
+
+    .sec3div h2 {
+        text-align: left;
+    }
+
+    .sec3div h3 {
+        text-align: left;
+    }
+    
+    .sec3div h4 {
+        text-align: left;
+    }
+    
+}    
